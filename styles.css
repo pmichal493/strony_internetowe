@@ -1,0 +1,89 @@
+/*
+selektor {
+    właściwość: wartość;
+}
+*/
+
+#naglowek{
+    background-color: aquamarine;
+    color: darkturquoise;
+    text-align: center;
+    padding: 30px;
+    font-family:Arial, Helvetica, sans-serif
+    letter-spacing: 2px;
+}
+
+#naglowek h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#naglowek p {
+    font-size: 19px;
+    line-height: 1.6;
+    font-style: italic;
+    letter-spacing: 1px;
+    color:dodgerblue;
+}
+#baner{
+    background-image: url('https://fastly.picsum.photos/id/950/1200/300.jpg?hmac=ak6j-mqn92V_qBQxKeze8u2eNZN5IvrX3LvReK3ALtc');
+    background-size: cover;
+    background-position: center;
+    padding: 60px, 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #00000000;
+}
+
+#baner h2{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;            /* wysokość linii */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 8px;           /* odstęp między słowami */
+}
+#tresc {
+    width: 100%;                  /* pełna szerokość */
+    background-color:cornflowerblue; /* jasne szare tło */
+    padding: 20px 0;
+    min-height: 300px;
+}
+
+.wpis{
+    width: 80%;                   /* 80% szerokości rodzica */
+    margin: 15px auto;            /* auto = wyśrodkowanie */
+    background-color:aqua;
+    border-radius: 8px;           /* zaokrąglone rogi */
+    padding: 15px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* delikatny cień */
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+.wpis .autor {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a1a2e;
+    margin-bottom: 2px;
+}
+
+.wpis .data {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.wpis .tekst {
+    font-size: 15px;
+    color: #2c3e50;
+    line-height: 1.6;             /* komfortowa wysokość linii */
+    margin-bottom: 12px;
+}
+
+.wpis .reakcje {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    color: #3498db;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
